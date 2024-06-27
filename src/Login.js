@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 var Login = () =>{
-    const [email,setEmail] = useState();
+    const [userName,setUserName] = useState();
     const [pws,setPwd] = useState();
 
     return (
